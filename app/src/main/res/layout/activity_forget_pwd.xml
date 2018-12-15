@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".view.ForgetPWDActivity">
+    <com.example.administrator.util.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.administrator.util.TitleLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="邮箱："
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/forgetPwdE_mail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/aliceblue"
+        android:inputType="textEmailAddress"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新密码(6~16位）："
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:background="@color/buttonshape1"
+        />
+
+    <LinearLayout
+        android:id="@+id/forgetPwdGetIcodeForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:hint="验证码" android:background="@color/ivory"
+
+       />
+        <Button
+            android:id="@+id/geticode_button2"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:text="发送验证码"
+            android:background="@drawable/sendicode" />
+    </LinearLayout>i
+        <Button
+            android:id="@+id/sign_in"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_shape"
+            android:text="立即修改" />
+
+</LinearLayout>

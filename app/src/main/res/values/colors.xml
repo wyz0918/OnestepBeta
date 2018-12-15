@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="huilan">#191970</color>
+    <color name="lianglan">#1e90ff</color>
+    <color name="blanchedalmond">#ffebcd</color><!--白杏色 -->
+    <color name="aquamarine">#7fffd4</color><!--碧绿色 -->
+    <color name="chartreuse">#7fff00</color><!--黄绿色 -->
+    <color name="lawngreen">#7cfc00</color><!--草绿色 -->
+    <color name="mediumslateblue">#7b68ee</color><!--中暗蓝色 -->
+    <color name="ivory">#fffff0</color><!--象牙色 -->
+    <color name="aqua">#00ffff</color><!--浅绿色 -->
+    <color name="springgreen">#00ff7f</color><!--春绿色 -->
+    <color name="aliceblue">#f0f8ff</color><!--艾利斯兰 -->
+    <color name="mediumblue">#0000cd</color><!--中兰色 -->
+    <color name="beige">#f5f5dc</color><!--米色 -->
+    <color name="buttonshape1">#e0ffff</color>
+
+
+    <color name="white">#FFFFFF</color>
+
+    <drawable name="transparent">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+
+    <color name="dark_gray">#888888</color>
+    <color name="header_toast_bg">#ccebfc</color>
+    <color name="header_toast">#024ca1</color>
+    <color name="header_toast_line">#abdaf4</color>
+    <color name="offline_down_title">#909090</color>
+    <color name="offline_head_font">#FFFFFF</color>
+    <color name="gary">#898989</color>
+    <color name="taobao_black">#333333</color>
+    <color name="offline_down_size">#777777</color>
+    <color name="gray_lite">#c5c5c5</color>
+    <color name="progress_background">#ededed</color>
+    <color name="blue">#4c90f9</color>
+    <color name="itemlist">#f4f4f4</color>
+    <color name="act_background">#efefef</color>
+    <color name="phone_bg">#f6f6f6</color>
+    <color name="translucent">#66000000</color>
+    <color name="color666">#661B85FF</color>
+    <color name="color_1B85FF">#1B85FF</color>
+
+</resources>
+
+
+

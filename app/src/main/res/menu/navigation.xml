@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/homepage"
+        android:title="主页" />
+
+    <item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/find"
+        android:title="发现" />
+
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@drawable/person"
+        android:title="个人" />
+
+</menu>
